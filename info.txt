@@ -1,0 +1,21 @@
+1. chrome headless 
+ npx playwright test
+
+2. chrome headed
+ npx playwright test --headed
+
+
+3. firefox Headless
+  npx playwright test --browser=firefox
+
+4. firefox Headed
+  npx playwright test --headed --browser=firefox
+
+5. all browser Headed
+ npx playwright test --headed --browser=all
+
+6. all browser Headedless
+ npx playwright test --browser=all
+
+7. run specific test
+npx playwright test tests/example.spec.ts 
