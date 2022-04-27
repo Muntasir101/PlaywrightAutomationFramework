@@ -1,0 +1,15 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "description": "Automation Software Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muntasir",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.21.1",
+    "prettier": "^2.6.2"
+  }
+}
