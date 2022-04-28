@@ -4,7 +4,6 @@
 2. chrome headed
  npx playwright test --headed
 
-
 3. firefox Headless
   npx playwright test --browser=firefox
 
@@ -17,5 +16,8 @@
 6. all browser Headedless
  npx playwright test --browser=all
 
-7. run specific test
+7. run specific test headless
 npx playwright test tests/example.spec.ts 
+
+8. run specific test headed
+npx playwright test -- headed tests/example.spec.ts 
