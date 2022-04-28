@@ -11,3 +11,5 @@
 11. wait
 12. Custom functions
 13. helpers
+14. playwright inspector
+15. artifects fail
