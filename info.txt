@@ -1,23 +1,8 @@
-1. chrome headless 
- npx playwright test
-
-2. chrome headed
- npx playwright test --headed
-
-3. firefox Headless
-  npx playwright test --browser=firefox
-
-4. firefox Headed
-  npx playwright test --headed --browser=firefox
-
-5. all browser Headed
- npx playwright test --headed --browser=all
-
-6. all browser Headedless
- npx playwright test --browser=all
-
-7. run specific test headless
-npx playwright test tests/example.spec.ts 
-
-8. run specific test headed
-npx playwright test -- headed tests/example.spec.ts 
+1. click
+2. input
+3. selectors
+4. assertions
+5. annonatations
+7. annonatations advance
+7. tagging
+8. playwright configurations
