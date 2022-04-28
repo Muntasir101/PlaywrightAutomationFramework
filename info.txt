@@ -6,3 +6,6 @@
 7. annonatations advance
 7. tagging
 8. playwright configurations
+9. Reporter
+10. Screenshots
+11. wait

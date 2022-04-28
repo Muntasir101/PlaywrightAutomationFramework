@@ -42,3 +42,5 @@
   |
   open html report
   npx playwright show-report
+
+12. Wait
