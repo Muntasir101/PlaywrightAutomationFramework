@@ -43,4 +43,13 @@
   open html report
   npx playwright show-report
 
-12. Wait
+12. Node scripts : run Headless
+ npm run test:chrome
+ npm run test:firefox
+ npm run test:Webkit
+
+13. Node scripts : run Headed
+ npm run test:chrome -- --headed
+ npm run test:firefox -- --headed
+ npm run test:Webkit -- --headed
+

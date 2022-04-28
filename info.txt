@@ -9,3 +9,5 @@
 9. Reporter
 10. Screenshots
 11. wait
+12. Custom functions
+13. helpers
