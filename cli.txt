@@ -17,12 +17,28 @@
  npx playwright test --browser=all
 
 7. run specific test headless
-npx playwright test tests/example.spec.ts 
+ npx playwright test tests/example.spec.ts 
 
 8. run specific test headed
-npx playwright test -- headed tests/example.spec.ts 
+ npx playwright test -- headed tests/example.spec.ts 
 
 9. using config file headless
-npx playwright test --config=playwright.config.ts --project=Chromium
-npx playwright test --config=playwright.config.ts --project=Firefox
-npx playwright test --config=playwright.config.ts --project=Webkit
+ npx playwright test --config=playwright.config.ts --project=Chromium
+ npx playwright test --config=playwright.config.ts --project=Firefox
+ npx playwright test --config=playwright.config.ts --project=Webkit
+
+10. using config file Headed
+ npx playwright test --headed --config=playwright.config.ts --project=Chromium
+ npx playwright test --headed --config=playwright.config.ts --project=Firefox
+ npx playwright test --headed --config=playwright.config.ts --project=Webkit
+
+11. Reporter
+ npx playwright test --config=playwright.config.ts --project=Chromium --reporter=line
+ npx playwright test --config=playwright.config.ts --project=Chromium --reporter=list
+ npx playwright test --config=playwright.config.ts --project=Chromium --reporter=dot
+ npx playwright test --config=playwright.config.ts --project=Chromium --reporter=junit
+ npx playwright test --config=playwright.config.ts --project=Chromium --reporter=html
+  |
+  |
+  open html report
+  npx playwright show-report
