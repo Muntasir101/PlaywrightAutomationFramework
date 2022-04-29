@@ -20,7 +20,7 @@
  npx playwright test tests/example.spec.ts 
 
 8. run specific test headed
- npx playwright test -- headed tests/example.spec.ts 
+ npx playwright test --headed tests/example.spec.ts 
 
 9. using config file headless
  npx playwright test --config=playwright.config.ts --project=Chromium

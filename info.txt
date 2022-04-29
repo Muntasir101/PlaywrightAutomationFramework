@@ -12,4 +12,8 @@
 12. Custom functions
 13. helpers
 14. playwright inspector
-15. artifects fail
+15. artifects of fail
+16. parallel
+17. KeyEvent
+18. dropdown
+19. calendar
